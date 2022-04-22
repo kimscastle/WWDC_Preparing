@@ -1,0 +1,625 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "axis" : [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "direction" : "clockwise",
+                                          "duration" : 300,
+                                          "iterations" : 10,
+                                          "target" : [
+                                            "82DCE7A9-F381-4164-A4E6-7DDFEA5ACA4D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "spin"
+                                        }
+                                      },
+                                      "identifier" : "9DC44B58-C694-4E16-8499-FADEF9B46072",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "direction" : "clockwise",
+                                          "duration" : 300,
+                                          "linearCoefficient" : 1,
+                                          "orbitalAxis" : [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "orientToPath" : false,
+                                          "pivotTarget" : "82DCE7A9-F381-4164-A4E6-7DDFEA5ACA4D",
+                                          "respectPhysics" : false,
+                                          "rotations" : 50,
+                                          "target" : [
+                                            "5B8AFB87-1FFB-400D-84B2-DD61395B399D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "orbitEntity"
+                                        }
+                                      },
+                                      "identifier" : "B37FF1FD-6C40-4918-A184-26BDC7CEA62F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "axis" : [
+                                            0,
+                                            1,
+                                            0
+                                          ],
+                                          "direction" : "clockwise",
+                                          "duration" : 300,
+                                          "iterations" : 50,
+                                          "target" : [
+                                            "5467F3AA-4A29-4503-BC39-8D3B651A6942"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "spin"
+                                        }
+                                      },
+                                      "identifier" : "B1E808E0-ACA7-4E55-9625-2DAB2C09C5F2",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "direction" : "clockwise",
+                                          "duration" : 300,
+                                          "linearCoefficient" : 1,
+                                          "orbitalAxis" : [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "orientToPath" : false,
+                                          "pivotTarget" : "5467F3AA-4A29-4503-BC39-8D3B651A6942",
+                                          "respectPhysics" : false,
+                                          "rotations" : 20,
+                                          "target" : [
+                                            "82DCE7A9-F381-4164-A4E6-7DDFEA5ACA4D"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "orbitEntity"
+                                        }
+                                      },
+                                      "identifier" : "D463173E-6A5A-4279-8BCC-19F9B4CF2FBC",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "direction" : "counterclockwise",
+                                          "duration" : 300,
+                                          "linearCoefficient" : 1,
+                                          "orbitalAxis" : [
+                                            0,
+                                            -1,
+                                            0
+                                          ],
+                                          "orientToPath" : false,
+                                          "pivotTarget" : "5467F3AA-4A29-4503-BC39-8D3B651A6942",
+                                          "respectPhysics" : false,
+                                          "rotations" : 10,
+                                          "target" : [
+                                            "23495732-1444-4143-8C69-72E556311BA5"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "orbitEntity"
+                                        }
+                                      },
+                                      "identifier" : "C9E5C66C-524D-4165-9A34-AA1139ACEE04",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "68AED6A4-CB0D-43E9-B097-8CDB0D2D9247",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "69E032B1-DA6C-40F4-83C0-3AF74A05BE42",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "연출",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "anim"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "9695F5D5-214F-41BC-BC6A-3CC081C2F08E",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "identifier" : "4C0226EB-5955-490E-A998-25DF24976A6C",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "1D24C134-5F53-40FB-B77F-D5CE2676D5D9" : {
+                    "overrides" : {
+                      "children" : {
+                        "501FA973-D76A-4D65-A5BA-FEDA00E7DEF0" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "item",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Mars"
+                                }
+                              ],
+                              [
+                                "style",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Stylized"
+                                }
+                              ]
+                            ],
+                            "children" : {
+                              "item" : {
+                                "overrides" : {
+                                  "factory" : null,
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "BBB9EC9D-6605-433A-9652-113C9925E74C"
+                                      }
+                                    ]
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.Mars.f2d20336-3a2b-40f2-97d5-282a624ec9a5",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5467F3AA-4A29-4503-BC39-8D3B651A6942"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0.044668674468994141,
+                              0.02709052711725235,
+                              0.5283476710319519,
+                              1
+                            ]
+                          }
+                        },
+                        "A722A75E-8EB5-4CD2-8EA9-727CF602A9AA" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "item",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Mercury"
+                                }
+                              ],
+                              [
+                                "style",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Stylized"
+                                }
+                              ]
+                            ],
+                            "children" : {
+                              "item" : {
+                                "overrides" : {
+                                  "factory" : null,
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "A2B45085-0EE8-48D5-9A8B-15B3090D2708"
+                                      }
+                                    ]
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.Mercury.f0f6b6d4-5f4b-4a63-9d4d-9cb3a89068be",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "5B8AFB87-1FFB-400D-84B2-DD61395B399D"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0.21779990196228027,
+                              0.077854663133621216,
+                              0.19850453734397888,
+                              1
+                            ]
+                          }
+                        },
+                        "E1D8B3A9-6B13-42EC-9D0B-A38CA496132C" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "item",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Neptune"
+                                }
+                              ],
+                              [
+                                "style",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Stylized"
+                                }
+                              ]
+                            ],
+                            "children" : {
+                              "item" : {
+                                "overrides" : {
+                                  "factory" : null,
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "3D3E18CE-CA4F-4EC7-8545-15430B61F7B3"
+                                      }
+                                    ]
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.Neptune.ccb0b470-e1df-4a93-8f39-0b49dd86f09c",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "23495732-1444-4143-8C69-72E556311BA5"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1,
+                              0,
+                              -0.039087943732738495,
+                              0.19837576150894165,
+                              -0.35706228017807007,
+                              1
+                            ]
+                          }
+                        },
+                        "E848DF30-FC3A-4B25-955A-0E86DB2026B1" : {
+                          "overrides" : {
+                            "arguments" : [
+                              [
+                                "item",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Earth"
+                                }
+                              ],
+                              [
+                                "style",
+                                {
+                                  "typeName" : "String",
+                                  "value" : "Stylized"
+                                }
+                              ]
+                            ],
+                            "children" : {
+                              "item" : {
+                                "overrides" : {
+                                  "factory" : null,
+                                  "runtimeAttributes" : [
+                                    [
+                                      "RuntimeIdentifier",
+                                      {
+                                        "typeName" : "UUID",
+                                        "value" : "48A8942C-1A03-44F0-8EB8-54BB47848B86"
+                                      }
+                                    ]
+                                  ]
+                                }
+                              }
+                            },
+                            "factory" : {
+                              "identifier" : "com.apple.rc.af.Earth.402ff266-9a33-4622-9411-b72c32a7ea1d",
+                              "version" : "1.0"
+                            },
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "82DCE7A9-F381-4164-A4E6-7DDFEA5ACA4D"
+                                }
+                              ]
+                            ]
+                          },
+                          "transform" : {
+                            "matrix" : [
+                              1.6149795055389404,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1.6149795055389404,
+                              0,
+                              0,
+                              0,
+                              0,
+                              1.6149795055389404,
+                              0,
+                              0.044668674468994141,
+                              0.083756536245346069,
+                              0.19850453734397888,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.af.Group",
+                        "version" : "0.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "49FBE8F8-FA8E-4F20-8F46-1652365CF2D3"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        0.50368541479110718,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.50368541479110718,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0.50368541479110718,
+                        0,
+                        -0.023402214050292969,
+                        0,
+                        -0.26558393239974976,
+                        1
+                      ]
+                    }
+                  },
+                  "1D1762BA-E80F-47C3-A505-FE4D678AE866" : null,
+                  "501FA973-D76A-4D65-A5BA-FEDA00E7DEF0" : null,
+                  "01061C01-910A-4E87-98CC-D753483FD501" : null,
+                  "02181CF2-BA1B-4D0A-B73A-B7EA58910683" : null,
+                  "88796162-6E16-4F14-B837-670C0F0713E9" : null,
+                  "A506C7A6-DBF9-46EB-840A-19C270B5A7D2" : null,
+                  "A722A75E-8EB5-4CD2-8EA9-727CF602A9AA" : null,
+                  "Cube" : null,
+                  "E1D8B3A9-6B13-42EC-9D0B-A38CA496132C" : null,
+                  "E63C4398-1013-4014-A530-C68DE98B497E" : null,
+                  "E848DF30-FC3A-4B25-955A-0E86DB2026B1" : null
+                },
+                "factory" : null,
+                "runtimeAttributes" : [
+                  [
+                    "isAccessibilityEnabled",
+                    {
+                      "typeName" : "Bool",
+                      "value" : false
+                    }
+                  ]
+                ]
+              },
+              "physicsMode" : "grid",
+              "title" : "solarsystem",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  -0.18236766755580902,
+                  -7.8230648625776666e-08,
+                  -0.98323041200637817,
+                  0,
+                  -0.47615322470664978,
+                  0.87491631507873535,
+                  0.088315911591053009,
+                  0,
+                  0.86024415493011475,
+                  0.48427426815032959,
+                  -0.15955665707588196,
+                  0,
+                  2.5480883121490479,
+                  1.1424465179443359,
+                  -0.66901028156280518,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 5
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
