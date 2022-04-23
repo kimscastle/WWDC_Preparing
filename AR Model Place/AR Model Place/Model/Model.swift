@@ -16,12 +16,12 @@ class Model: Identifiable {
     var image: Image {
         Image(modelName)
     }
-    var modelEntity: ModelEntity?
+    var modelEntity: Entity?
     var cancellabel: AnyCancellable? = nil //combine사용하려면 선언해줘야함
     
     init(modelName: String) {
         self.modelName = modelName
-        cancellabel = ModelEntity.loadModelAsync(named: modelName)
+        cancellabel = Entity.loadAsync(named: modelName)
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { (error) in
                 print("error to load\(error)")

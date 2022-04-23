@@ -11,10 +11,24 @@ import RealityKit
 struct ContentView : View {
     var modelData = ModelData()
     @State private var selectedModel: Model?
+    @State private var isModelOnView = true
     var body: some View {
+        
+        let tap = TapGesture()
+            .onEnded { _ in
+                withAnimation {
+                    isModelOnView.toggle()
+                }
+            }
         ZStack(alignment: .bottom) {
-            ARViewContainer(selectedModel: $selectedModel)
-            ScrollModelView(models: modelData.models, selectedModel: $selectedModel)
+            ARViewContainer(selectedModel: $selectedModel).gesture(tap)
+            if isModelOnView {
+                ScrollModelView(models: modelData.models, selectedModel: $selectedModel)
+                    .transition(.move(edge: .bottom))
+            }else {
+                AnimButton(selectedModel: $selectedModel)
+                    .transition(.move(edge: .bottom))
+            }
         }.edgesIgnoringSafeArea(.all)
     }
 }
