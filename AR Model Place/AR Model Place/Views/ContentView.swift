@@ -9,10 +9,12 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    var modelData = ModelData()
+    @State private var selectedModel: Model?
     var body: some View {
         ZStack(alignment: .bottom) {
-            ARViewContainer()
-            ScrollModelView()
+            ARViewContainer(selectedModel: $selectedModel)
+            ScrollModelView(models: modelData.models, selectedModel: $selectedModel)
         }.edgesIgnoringSafeArea(.all)
     }
 }

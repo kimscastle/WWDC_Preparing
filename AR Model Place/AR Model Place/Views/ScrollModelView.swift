@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ScrollModelView: View {
-    
-    var images = ["chair_swan", "flower_tulip", "gramophone", "teapot", "toy_biplane", "tv_retro"]
-    
+    var models: [Model]
+    @Binding var selectedModel: Model?
     var body: some View {
         ScrollView(.horizontal){
             HStack {
-                ForEach(0..<images.count) { item in
-                    PickerImageView(model: Image(images[item]))
+                ForEach(models) { item in
+                    Button (action: {
+                        selectedModel = item
+                    }, label: {
+                        PickerImageView(model: item.image)
+                    }).buttonStyle(PlainButtonStyle())
                 }
             }
         }.background(Color.black.opacity(0.5))
@@ -24,6 +27,9 @@ struct ScrollModelView: View {
 
 struct ScrollModelView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrollModelView()
+        ScrollModelView(models: ModelData().models, selectedModel: .constant(ModelData().models[0]))
     }
 }
+
+
+

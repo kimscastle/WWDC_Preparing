@@ -20,6 +20,9 @@
 		C0DB62BB2813BB4E00A0FB04 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB62BA2813BB4E00A0FB04 /* ARViewContainer.swift */; };
 		C0DB62BD2813BBC400A0FB04 /* PickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB62BC2813BBC400A0FB04 /* PickerImageView.swift */; };
 		C0DB62BF2813BDB300A0FB04 /* ScrollModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB62BE2813BDB300A0FB04 /* ScrollModelView.swift */; };
+		C0DB62C32813F06E00A0FB04 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DB62C22813F06E00A0FB04 /* Model.swift */; };
+		C0DB62C628140D8300A0FB04 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C0DB62C428140D8300A0FB04 /* toy_drummer.usdz */; };
+		C0DB62C728140D8300A0FB04 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C0DB62C528140D8300A0FB04 /* toy_robot_vintage.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		C0DB62BA2813BB4E00A0FB04 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		C0DB62BC2813BBC400A0FB04 /* PickerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageView.swift; sourceTree = "<group>"; };
 		C0DB62BE2813BDB300A0FB04 /* ScrollModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollModelView.swift; sourceTree = "<group>"; };
+		C0DB62C22813F06E00A0FB04 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C0DB62C428140D8300A0FB04 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_drummer.usdz; path = 3DModels/toy_drummer.usdz; sourceTree = SOURCE_ROOT; };
+		C0DB62C528140D8300A0FB04 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = 3DModels/toy_robot_vintage.usdz; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,7 @@
 		C0DB629B281386BC00A0FB04 /* AR Model Place */ = {
 			isa = PBXGroup;
 			children = (
+				C0DB62C12813F05A00A0FB04 /* Model */,
 				C0DB62B92813BAE100A0FB04 /* Views */,
 				C0DB62AC2813B21900A0FB04 /* 3D Models */,
 				C0DB629C281386BC00A0FB04 /* AppDelegate.swift */,
@@ -89,6 +96,8 @@
 		C0DB62AC2813B21900A0FB04 /* 3D Models */ = {
 			isa = PBXGroup;
 			children = (
+				C0DB62C428140D8300A0FB04 /* toy_drummer.usdz */,
+				C0DB62C528140D8300A0FB04 /* toy_robot_vintage.usdz */,
 				C0DB62B12813B24400A0FB04 /* chair_swan.usdz */,
 				C0DB62AE2813B24400A0FB04 /* flower_tulip.usdz */,
 				C0DB62B02813B24400A0FB04 /* gramophone.usdz */,
@@ -108,6 +117,14 @@
 				C0DB62BE2813BDB300A0FB04 /* ScrollModelView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		C0DB62C12813F05A00A0FB04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0DB62C22813F06E00A0FB04 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +191,10 @@
 				C0DB62B42813B24400A0FB04 /* flower_tulip.usdz in Resources */,
 				C0DB62A6281386BD00A0FB04 /* Preview Assets.xcassets in Resources */,
 				C0DB62B52813B24400A0FB04 /* tv_retro.usdz in Resources */,
+				C0DB62C728140D8300A0FB04 /* toy_robot_vintage.usdz in Resources */,
 				C0DB62A3281386BD00A0FB04 /* Assets.xcassets in Resources */,
 				C0DB62B72813B24400A0FB04 /* chair_swan.usdz in Resources */,
+				C0DB62C628140D8300A0FB04 /* toy_drummer.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +208,7 @@
 				C0DB62BF2813BDB300A0FB04 /* ScrollModelView.swift in Sources */,
 				C0DB62BD2813BBC400A0FB04 /* PickerImageView.swift in Sources */,
 				C0DB629F281386BC00A0FB04 /* ContentView.swift in Sources */,
+				C0DB62C32813F06E00A0FB04 /* Model.swift in Sources */,
 				C0DB629D281386BC00A0FB04 /* AppDelegate.swift in Sources */,
 				C0DB62BB2813BB4E00A0FB04 /* ARViewContainer.swift in Sources */,
 			);
