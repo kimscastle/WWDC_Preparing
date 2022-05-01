@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct EndButton: View {
-    @Binding var index: Int
+//    @Binding var index: Int
     var body: some View {
         VStack {
             HStack {

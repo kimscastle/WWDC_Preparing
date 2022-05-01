@@ -82,7 +82,7 @@ struct ContentView : View {
                         .scaledToFit()
                         .frame(width: 600, alignment: .center)
                         .padding()
-                    EndButton(index: $index)
+                    EndButton()
                 }
             }
         }
